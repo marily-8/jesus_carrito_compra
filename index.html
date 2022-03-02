@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/carrito_compras.css">
+</head>
+<body>
+    <fieldset>
+    Subtotal cop<label id="costoTotal">0</label>
+    <div class="producto"> Proceder al pago(<label id="Producto"><label id="cantidadProducto">1</label></label> productos) </div>
+    <br>
+
+    <div>
+    <img src="img/cien años.jpg" style="float: left">  
+    <p class="h1">Es considerada una obra maestra de la literatura hispanoamericana y universal</p> 
+        <p class="h1">por Gabriel García Márquez</p> 
+              <p class="h2">Tapa blanca</p> 
+                  <p class="h3">cop<label id="valorUnitario">200000</label></p> 
+                      <p class="h4">Eliminar</p> 
+                          <p class="h5">Guardar para mas tarde</p> 
+    </div>
+  
+    <input class="div-boton" onclick="disminuirPedido()" value="-">
+    <label class="label" id="cantidadElementos">1</label>
+    <input class="div-boton" onclick="aumentarPedido()" value="+">
+
+    </fieldset>
+    
+    <script src="js/carrito_compras.js"></script>
+</body>
+</html>
